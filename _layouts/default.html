@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <header>
+        <div class="brand">
+          <a href="{{ site.baseurl }}/" title="Home">
+            <img src="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}" alt="logo">
+            <span>
+            {{ site.title }}
+            </span>
+          </a>
+        </div>
+        <nav>
+          <a href="/2024/01/03/options/">
+            Articles
+          </a>
+          <a href="/2024/01/02/example-content/">
+            Guides
+          </a>
+     
+          <a href="/2024/01/01/whats-jekyll/">
+            About
+          </a>
+          <a href="/2024/01/04/introduction/">
+            Night
+          </a>
+        </nav>
+    </header>
+    <main>
+      <section class="blog-content">
+        {{ content }}
+      </section>
+  </main>
+  <footer>
+      <nav>
+        <a href="#">
+          Articles
+        </a>
+        <a href="#">
+          Guides
+        </a>
+        <a href="#">
+          Newsletter
+        </a>
+        <a href="#">
+          RSS
+        </a>
+      </nav>
+      <div class="credits">
+        <p>
+          Highness Theme is licensed MIT. <br/> &copy; 2024 <a href="https://brucestudios.github.io"> BrucyCraft </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

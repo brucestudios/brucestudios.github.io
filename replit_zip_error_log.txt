@@ -1,0 +1,5 @@
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c/libffi-x86_64-linux/.libs/libffi.la","time":"2024-05-04T03:14:32Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c/libffi-x86_64-linux/.libs/libffi.so","time":"2024-05-04T03:14:32Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c/libffi-x86_64-linux/.libs/libffi.so.8","time":"2024-05-04T03:14:32Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c/libffi-x86_64-linux/.libs/libffi_convenience.la","time":"2024-05-04T03:14:32Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/replit:v9-20240429-0325cbb","time":"2024-05-04T03:14:41Z"}
