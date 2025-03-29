@@ -3,8 +3,12 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+  # icon: "fa-brands fa-x-twitter"
+
+- type: bilibili
+  icon: "fa-brands fa-bilibili"
+  url: "https://space.bilibili.com/3537121698646620"
 
 - type: email
   icon: "fas fa-envelope"
