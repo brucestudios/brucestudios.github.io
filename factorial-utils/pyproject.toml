@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factorial-utils"
+version = "0.1.0"
+description = "A simple, efficient Python utility for computing factorials with optional caching"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+keywords = ["factorial", "math", "utility"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/your-username/factorial-utils"
+Documentation = "https://github.com/your-username/factorial-utils#readme"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["factorial_utils*"]
+
+[tool.setuptools.package-data]
+factorial_utils = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+addopts = "-v"

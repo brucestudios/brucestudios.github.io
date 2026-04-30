@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inspirational-quote-cli"
+version = "0.1.0"
+description = "A command-line tool that prints random inspirational quotes"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Bruce Studenroth", email = "bruce@example.com"}
+]
+keywords = ["cli", "quote", "inspiration", "terminal"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+    "Environment :: Console",
+]
+
+[project.urls]
+Homepage = "https://github.com/brucestudios/inspirational-quote-cli"
+Documentation = "https://github.com/brucestudios/inspirational-quote-cli#readme"
+Issues = "https://github.com/brucestudios/inspirational-quote-cli/issues"
+
+[project.scripts]
+quote = "inspirational_quote_cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["inspirational_quote_cli*"]

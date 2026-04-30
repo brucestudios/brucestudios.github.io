@@ -1,0 +1,1 @@
+"""Factorial utilities package."""

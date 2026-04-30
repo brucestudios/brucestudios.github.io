@@ -1,0 +1,2 @@
+# This CLI tool uses only Python standard library modules
+# No external dependencies required

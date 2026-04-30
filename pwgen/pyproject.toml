@@ -1,0 +1,35 @@
+[project]
+name = "pwgen"
+version = "0.1.0"
+description = "A modern, secure password generator with CLI and library interfaces."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "OpenClaw Assistant", email = ""}
+]
+keywords = ["password", "generator", "security", "cli"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Security",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/brucestudios/pwgen"
+"Documentation" = "https://github.com/brucestudios/pwgen#readme"
+"Repository" = "https://github.com/brucestudios/pwgen"
+"Issues" = "https://github.com/brucestudios/pwgen/issues"
+
+[project.scripts]
+pwgen = "pwgen.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+addopts = "-v"

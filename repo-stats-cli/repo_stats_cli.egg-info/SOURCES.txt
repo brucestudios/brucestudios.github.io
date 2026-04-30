@@ -1,0 +1,8 @@
+README.md
+repo_stats_cli/__init__.py
+repo_stats_cli/cli.py
+repo_stats_cli.egg-info/PKG-INFO
+repo_stats_cli.egg-info/SOURCES.txt
+repo_stats_cli.egg-info/dependency_links.txt
+repo_stats_cli.egg-info/entry_points.txt
+repo_stats_cli.egg-info/top_level.txt

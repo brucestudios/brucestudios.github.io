@@ -1,0 +1,35 @@
+{
+  "name": "textcase-utils",
+  "version": "1.0.0",
+  "description": "A lightweight utility for converting text between different cases (camelCase, snake_case, kebab-case, PascalCase, etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "text",
+    "case",
+    "conversion",
+    "camelCase",
+    "snake_case",
+    "kebab-case",
+    "PascalCase",
+    "utility"
+  ],
+  "author": "brucestudios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucestudios/textcase-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brucestudios/textcase-utils/issues"
+  },
+  "homepage": "https://github.com/brucestudios/textcase-utils#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  }
+}

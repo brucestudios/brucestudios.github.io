@@ -1,0 +1,3 @@
+[console_scripts]
+repo-stats = repo_stats_cli.cli:main
+

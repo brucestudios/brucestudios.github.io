@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "projinit"
+version = "0.1.0"
+description = "A simple project initializer for Python projects."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+keywords = ["project", "template", "initializer"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/brucestudios/projinit"
+
+[project.scripts]
+projinit = "projinit:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
