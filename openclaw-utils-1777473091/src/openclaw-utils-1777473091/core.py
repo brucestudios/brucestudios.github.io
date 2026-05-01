@@ -1,0 +1,1 @@
+def factorial(n):\n    """Return the factorial of n, an exact integer >= 0."""\n    if n < 0:\n        raise ValueError("n must be >= 0")\n    if n == 0:\n        return 1\n    result = 1\n    for i in range(2, n + 1):\n        result *= i\n    return result

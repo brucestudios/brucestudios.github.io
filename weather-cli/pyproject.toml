@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weather-cli"
+version = "0.1.0"
+description = "A simple command-line tool to get current weather and forecasts"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+keywords = ["weather", "cli", "wttr", "forecast"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+]
+dependencies = [
+    "requests>=2.25.0",
+    "click>=8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/brucestudios/weather-cli"
+Documentation = "https://github.com/brucestudios/weather-cli#readme"
+
+[project.scripts]
+weather = "weather_cli.main:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]

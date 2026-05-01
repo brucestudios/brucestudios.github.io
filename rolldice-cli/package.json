@@ -1,0 +1,19 @@
+{
+  "name": "rolldice-cli",
+  "version": "1.0.0",
+  "description": "A flexible dice rolling CLI tool for tabletop RPGs and games",
+  "main": "index.js",
+  "bin": {
+    "rolldice": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dice", "rpg", "cli", "random", "tabletop"],
+  "author": "OpenClaw Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "chalk": "^5.0.0"
+  }
+}

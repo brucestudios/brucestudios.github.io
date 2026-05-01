@@ -1,0 +1,1 @@
+# Init file for openclaw_skill_manager package

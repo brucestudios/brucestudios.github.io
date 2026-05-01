@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: repo-stats-cli
+Version: 0.1.0
+Summary: A CLI tool to fetch GitHub repository statistics
+Home-page: https://github.com/brucestudios/repo-stats-cli-20260428
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Description: # Repo Stats CLI
+        
+        A simple command-line tool to fetch and display statistics for a GitHub repository.
+        
+        ## Features
+        
+        - Fetch stars, forks, watchers, open issues, and license info.
+        - Supports authentication via GitHub token for higher rate limits.
+        - Easy to install and use.
+        
+        ## Installation
+        
+        ```bash
+        pip install repo-stats-cli
+        ```
+        
+        ## Usage
+        
+        ```bash
+        repo-stats owner/repo
+        ```
+        
+        Example:
+        
+        ```bash
+        repo-stats python/cpython
+        ```
+        
+        Output:
+        
+        ```
+        Repository: python/cpython
+        Stars: 45,000
+        Forks: 22,000
+        Watchers: 1,500
+        Open Issues: 1,200
+        License: PSF License
+        ```
+        
+        ## Configuration
+        
+        Set the environment variable `GITHUB_TOKEN` to a personal access token to avoid rate limiting.
+        
+        ## License
+        
+        MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
