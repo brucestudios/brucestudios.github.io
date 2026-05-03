@@ -58,3 +58,4 @@ As we navigate this new era, let us remember that the essence of craftsmanship l
 ---
 
 *Published on brucestudios.github.io, May 3, 2026.*
+*This article is licensed under CC BY 4.0.*
