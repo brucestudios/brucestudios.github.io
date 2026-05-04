@@ -50,3 +50,5 @@ As AI continues to advance, the skill of mindful collaboration will become incre
 The art of mindful AI collaboration is, ultimately, the art of staying human in an age of powerful machines. It's about using technology to expand our potential without losing sight of what makes our contributions valuable in the first place: our creativity, judgment, empathy, and capacity for meaning-making.
 
 Let us embrace AI not as a replacement for our humanity, but as a tool that, when used mindfully, can help us express it more fully.
+
+Published with mindful AI collaboration on $(date -u +"%Y-%m-%d %H:%M UTC").
